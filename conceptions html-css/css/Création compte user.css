@@ -36,51 +36,73 @@ body, html{
     border-radius: 5px;
 }
 .titre{
-    margin-top: -280px;
+    margin-top: -340px;
     padding: 60px;
 }
 .logo1{
     margin-left: 750px;
     margin-top: 100px;
     margin-bottom: -100px;
+    border: solid 4px #51bfd0;
+    overflow:hidden;
+    -webkit-border-radius:100px;
+    -moz-border-radius:100px;
+    border-radius:100px;
+    width:200px;
+    height:200px;
 }
 .jeu{
     margin-left: 800px;
     margin-top: 100px;
     margin-bottom: -80px;
+    
 }
 .cult{
     margin-top: -10px;
+    color:#9b9797 ;
 }
 .form_container{
     margin-top: 500px;
 }
 .form{
     margin-top: 0px;
+    color:#9b9797 ;
+
 }
 .input_nom{
     height: 50px;
     width: 600px;
+    color:#9b9797 ;
+
 }
 .input_prenom{
     height: 50px;
     width: 600px;
+    color:#9b9797 ;
+
 }
 .input_login{
     height: 50px;
     width: 600px;
+    color:#9b9797 ;
+
 }
 .input_pass{
     height: 50px;
     width: 600px;
+    color:#ababab ;
+    border-color: #51bfd0;
 }
 .input_confpass{
     height: 50px;
     width: 600px;
+    color:#9b9797 ;
+    border-color: #51bfd0;
 }
 .avatar{
     font-size: larger;
     margin-top: -100px;
+    color: black;
 }
 .choix_btn{
     background:#51bfd0 ;
@@ -92,5 +114,5 @@ body, html{
     background: #51bfd0 ;
     color: white;
     margin-top: 20px;
-    margin-left: 380px;
+    margin-left: 350px;
 }

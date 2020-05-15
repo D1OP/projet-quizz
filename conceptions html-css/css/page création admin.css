@@ -23,7 +23,7 @@ body, html{
 .user_card {
     height: 470px;
     width: 800px;
-    margin-top: -580px;
+    margin-top: -410px;
     margin-bottom: auto;
     background: white;
     position: relative;
@@ -38,7 +38,7 @@ body, html{
     margin-left: 600px;
 }
 .titre{
-    margin-top: -290px;
+    margin-top: -300px;
     padding: 30px;
     color: black;
 }
@@ -46,7 +46,13 @@ body, html{
     margin-left: 400px;
     margin-top: 50px;
     margin-bottom: -50px;
-
+    border: solid 4px #51bfd0;
+    overflow:hidden;
+    -webkit-border-radius:100px;
+    -moz-border-radius:100px;
+    border-radius:100px;
+    width:200px;
+    height:200px;
 }
 .jeu{
     margin-left: 480px;
@@ -84,11 +90,13 @@ body, html{
     height: 40px;
     width: 300px;
     font-size: small;
+    border-color: #51bfd0;
 }
 .input_confpass{
     height: 40px;
     width: 300px;
     font-size: small;
+    border-color: #51bfd0;
 }
 .avatar{
     font-size: larger;
@@ -98,7 +106,7 @@ body, html{
 .choix_btn{
     background:#51bfd0 ;
     color: white;
-    margin-left: 100px;
+    margin-left: 200px;
     margin-top: 20px;
     font-size: x-small;
 }
@@ -106,7 +114,7 @@ body, html{
     background: #51bfd0 ;
     color: white;
     margin-top: 20px;
-    margin-left: 40px;
+    margin-left: 140px;
     font-size: x-small;
 }
 .user_card1 {
@@ -123,7 +131,15 @@ body, html{
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
     -webkit-box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
     -moz-box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-    border-radius: 0px;
+    border-radius: 0 0 5px 5px ;
+}
+.logo2{
+    border: solid 1px black;
+    overflow:hidden;
+    -webkit-border-radius:80px;
+    -moz-border-radius:80px;
+    border-radius:80px;
+    width: 120px;
 }
 .login1{
     height: 80px;
@@ -133,6 +149,7 @@ body, html{
     margin-left: -10px;
     padding: 20px;
     color: aliceblue;
+    border-radius: 5px 5px 0 0;
 }
 
 
@@ -140,18 +157,58 @@ body, html{
     margin-left: -500px;
     margin-top: 80px;
     width: 400px;
-    height: 500px;
+    height: 310px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    -webkit-box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    -moz-box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    border-radius: 5px;
 }
 .list{
     background-color: #61c5d4;
+    border-radius: 5px;
+    background-image: linear-gradient(white, #61c5d4 );
 }
 .list-group-item-action{
     width: 400px;
+    background-image: url("../img/ic-liste.png");
+    background-repeat: no-repeat;
+    background-position: right;
 }
 .list-group-item-action1{
     background-color: #f8f3f0;
     width: 400px;
+    background-image: url("../img/ic-ajout-active.png");
+    background-repeat: no-repeat;
+    background-position: right;
+    color: black;
 }
-.logo3{
-    margin-top: -30px;
+.list-group-item-action2{
+    width: 400px;
+    background-image: url("../img/ic-liste.png");
+    background-repeat: no-repeat;
+    background-position: right;
+    color: black;
+
+}
+.list-group-item-action3{
+    width: 400px;
+    background-image: url("../img/ic-ajout.png");
+    background-repeat: no-repeat;
+    background-position: right;
+    color: black;
+
+}
+.for1{
+    text-align: center;
+}
+.A{
+    margin-left: 200px;
+}
+.compte_dec{
+    margin-left: 1150px;
+    background: #39ddd6 ;
+    color: white;
+    margin-top: 0px;
+    font-size:small;
+    margin-top: -70px;
 }
