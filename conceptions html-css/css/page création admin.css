@@ -38,7 +38,7 @@ body, html{
     margin-left: 600px;
 }
 .titre{
-    margin-top: -300px;
+    margin-top: -290px;
     padding: 30px;
     color: black;
 }
@@ -100,20 +100,20 @@ body, html{
 }
 .avatar{
     font-size: larger;
-    margin-top: -80px;
+    margin-top: -70px;
     font-size: small;
 }
 .choix_btn{
     background:#51bfd0 ;
     color: white;
     margin-left: 200px;
-    margin-top: 20px;
+    margin-top: 15px;
     font-size: x-small;
 }
 .compte_btn{
     background: #51bfd0 ;
     color: white;
-    margin-top: 20px;
+    margin-top: 3px;
     margin-left: 140px;
     font-size: x-small;
 }
@@ -201,9 +201,6 @@ body, html{
 .for1{
     text-align: center;
 }
-.A{
-    margin-left: 200px;
-}
 .compte_dec{
     margin-left: 1150px;
     background: #39ddd6 ;
@@ -211,4 +208,15 @@ body, html{
     margin-top: 0px;
     font-size:small;
     margin-top: -70px;
+}
+.a{
+    margin-left: 150px;
+    margin-top: -20px;
+    font-weight: bold;
+}
+.ligne_verticale
+{
+    width:5px;
+    height:70px;
+    color: red;
 }

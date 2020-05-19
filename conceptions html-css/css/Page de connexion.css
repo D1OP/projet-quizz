@@ -61,7 +61,7 @@ body, html{
     padding: 0 2rem;
 }
 .input_user{
-    margin-top: 0px;
+    margin-top: -50px;
     width: 400px;
     height: 70px;
     box-shadow: none !important;
@@ -86,4 +86,8 @@ body, html{
     color: white !important;
     border: 0 !important;
     border-radius: 0.25rem 0 0 0.25rem !important;
+}
+.fa-close{
+    margin-left: 400px;
+    margin-top: -70px;
 }
