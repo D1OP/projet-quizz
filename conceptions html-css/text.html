@@ -1,0 +1,66 @@
+<!doctype html>
+<html lang="vf">
+
+<head>
+    <title>Connexion</title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
+    <link rel="stylesheet" href="classe.css">
+
+
+</head>
+
+<body>
+
+    <header class="bgSecondary">
+        <h1 class="text-center m-0">
+            Le plaisir de jouer
+        </h1>
+    </header>
+
+    <div id="main" class="d-flex justify-content-center align-items-center">
+    
+<div id="connexion-form" class="w-25">
+
+          
+            <div class="connexion-form-header">
+                <h3 class="bgPrimary h5 p-3 m-0">Login form</h3>
+                
+            </div>
+
+            <div class="connexion-form-body bgWhite p-3">
+                  
+                        <small id="fileHelpId" class="form-text text-danger font-weight-bold "></small>
+                   
+                <form class="py-2" method="post" action="security/seConnecter">
+                    <div class="form-group ">
+                        <input type="text" placeholder="Login" name="login" class="form-control" id="email">
+                     
+                        <small id="fileHelpId" class="form-text text-danger font-weight-bold "></small>
+                    
+                    
+                    </div>
+
+                    <div class="form-group py-2">
+                        <input type="password" placeholder="Password" name="password" class="form-control">
+                       
+                        <small id="fileHelpId" class="form-text text-danger font-weight-bold "></small>
+                   
+                    </div>
+
+
+                    <button type="submit" class="btn btn-primary" name="btn_connexion">Connexion</button>
+                    <a href="security/creerCompte" class="text-secondary pl-5">S'inscrire pour jouer</a>
+                </form>
+            </div>
+
+</div>
+
+
+</body>
+
+</html>
+

@@ -1,0 +1,49 @@
+body{
+    background:url("../img/Background.png");
+    height: 90vh;
+}
+.bgSecondary {
+    background: hsl(182, 80%, 8%);
+    color: white;
+    height: 60px;
+  }
+.bgPrimary {
+    background: #51bfd0;
+    color: white;
+  }
+  .bgWhite {
+    background: #f8fdfd;
+  }
+  
+.red{
+    background-color: #f2f2f2;;
+    height: 550px;
+}
+.aa{
+    background-color: #61c5d4;
+    border-radius: 5px;
+    background-image: linear-gradient(white, #61c5d4 );
+}
+.deconnexion {
+    background: #3addd6;
+}
+  .deconnexion:hover {
+    background: #3addd6;
+    opacity: 0.8;
+}
+.avatar {
+    width: 160px;
+    height: 160px;
+    border-radius: 50%;
+    border: solid 2px #51bfd0;
+    margin-top: -400px;
+    float: right;    
+}
+.meenu{
+    position: relative;
+}
+.im{
+    position: absolute;
+    top: 15px;
+    left: 10px;
+}
